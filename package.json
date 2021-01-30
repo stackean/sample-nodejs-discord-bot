@@ -1,5 +1,5 @@
 {
-  "name": "Stackean Node.js Discord Bot",
+  "name": "stackean-nodejs-discord-bot",
   "version": "0.0.1",
   "description": "Node.js Discord bot sample ready to deploy on Stackean.com",
   "main": "server.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "pm2 start"
   },
-  "author": "Stackean.com",
+  "author": "Stackean",
   "license": "MIT",
   "repository": {
     "type": "git",
