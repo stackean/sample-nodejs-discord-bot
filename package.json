@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "Stackean Node.js Discord Bot",
   "version": "0.0.1",
   "description": "Node.js Discord bot sample ready to deploy on Stackean.com",
   "main": "server.js",
