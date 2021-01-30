@@ -1,0 +1,24 @@
+type: install
+name: Stackean Node.js Discord Bot
+engine: nodejs
+
+nodes:
+  nodeType: nodejs
+  displayName: bot-node-${fn.random}
+  diskLimit: 5
+  cloudlets: 1
+  flexibleCloudlets: 4
+  env:
+    DISCORD_TOKEN: ${settings.discord_token}
+
+onInstall:
+  deploy:
+    archive: https://github.com/stackean/sample-nodejs-discord-bot/archive/main.zip
+    name: stackean-nodejs-discord-bot
+    context: ROOT
+    
+settings:
+  fields:
+    - type: string
+      name: discord_token
+      caption: discord_token
