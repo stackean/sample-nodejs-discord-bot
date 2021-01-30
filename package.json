@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "version": "0.0.1",
+  "description": "Node.js Discord bot sample ready to deploy on Stackean.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start"
+  },
+  "author": "Stackean.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stackean/sample-nodejs-discord-bot.git"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
