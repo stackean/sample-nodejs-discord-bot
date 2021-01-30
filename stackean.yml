@@ -16,6 +16,9 @@ onInstall:
     archive: https://github.com/stackean/sample-nodejs-discord-bot/archive/main.zip
     name: stackean-nodejs-discord-bot
     context: ROOT
+  cmd:
+    - npm install
+    - pm2 start
     
 settings:
   fields:
